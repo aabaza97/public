@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1060px) {
+    div.nav-h-line{
+        width: 120px !important;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     div.mobile-menu{
         display: inline-block !important;
@@ -23,6 +29,8 @@
     div.side-content{
         display: none;
     }
+
+    
 }
 
 @media only screen and (max-width: 768px) {

@@ -27,12 +27,13 @@ div.mobile-menu{
 
 div.wrapper{
     max-width: 100%;
-    padding: 30px;
+    padding: 40px;
     overflow: hidden;
 }
 
 div.container{
-    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 div.top-bar{
@@ -53,14 +54,18 @@ div.logo{
 }
 
 div.h-line{
-    height: 1px;
+    height: 0.5px;
     background-color: var(--shady-white);
     opacity: 0.4;
     margin-top: 30px;
 }
 
 div.small-h-line{
-    width: 130px;
+    width: 120px;
+}
+
+div.nav-h-line{
+    width: 180px;
 }
 
 div.full-h-line{
@@ -70,7 +75,7 @@ div.full-h-line{
 
 
 div.content{
-    padding: 20px;
+    padding: 20px 20px;
     float: left;
 }
 
@@ -91,6 +96,7 @@ p.title{
     line-height: 70px;
     float: left;
     font-weight: 800;
+    padding-left: 5px;
 }
 
 div.content
@@ -146,6 +152,7 @@ div.nav
 ul
 li{
     display: inline;
+    font-size: 14px;
 }
 
 
