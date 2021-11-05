@@ -1,0 +1,207 @@
+@import url(../css/respo.css);
+/* General Rules */
+:root {
+    --body-bg-color: #0D0912;
+    --accent-color: #D0008E;
+    --shady-white: #E9E4EF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    font-family: -apple-system, BlinkMacSystemFont;
+    color: var(--shady-white);
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+/* ------------------------------------------------------------------------------*/
+/* Page Styling */
+div.mobile-menu{
+    display: none;
+}
+
+div.wrapper{
+    max-width: 100%;
+    padding: 30px;
+    overflow: hidden;
+}
+
+div.container{
+    width: 100%;
+}
+
+div.top-bar{
+    width: 100%;
+    height: 100px;
+}
+
+div.top-bar
+div.logo{
+    width: 54px;
+    height: 54px;
+    background-image: url("../imgs/logo-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    float: left;
+    margin-right: 20px;
+}
+
+div.h-line{
+    height: 1px;
+    background-color: var(--shady-white);
+    opacity: 0.4;
+    margin-top: 30px;
+}
+
+div.small-h-line{
+    width: 130px;
+}
+
+div.full-h-line{
+    width: calc(100% - 74px);
+}
+
+
+
+div.content{
+    padding: 20px;
+    float: left;
+}
+
+div.content
+div.content-header{
+    max-height: 100px;
+    overflow: hidden;
+}
+
+div.content
+p.subtitle{
+    font-size: 30px;
+}
+
+div.content
+p.title{
+    font-size: 45px;
+    line-height: 70px;
+    float: left;
+    font-weight: 800;
+}
+
+div.content
+div.content-body{
+    display: block;
+    margin-top: 50px;
+    max-width: 640px;
+}
+
+div.content-body
+p.content{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+
+div.side-content{
+    float: right;
+    width: calc(100% - 700px);
+    height: 450px;
+    padding-top: 30px;
+}
+
+div.side-content
+div.illustration{
+    width: 100%;
+    height: inherit;
+    background-image: url("../imgs/circles.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.4;
+}
+
+div.side-content
+div.nav{
+    float: right;
+    margin-top: 20px;
+}
+
+div.side-content
+div.nav
+ul{
+    list-style: none;
+    float: right;
+    margin: 20px;
+}
+
+div.side-content
+div.nav
+ul
+li{
+    display: inline;
+}
+
+
+div.footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    background-color: var(--accent-color);
+}
+
+
+
+/* ------------------------------------------------------------------------------*/
+/* Abstract */
+.font-bold{
+    font-weight: bold;
+}
+
+.font-bolder{
+    font-weight: bolder;
+}
+
+.font-italic{
+    font-style: italic;
+}
+
+.font-underlined{
+    font-style: underline;
+}
+
+.title-margined{
+    margin-top: 42px !important;
+    margin-left: 15px;
+}
+
+.float-right{
+    float: right;
+}
+
+div.left-h-line{
+    float: left;
+}
+
+div.right-h-line{
+    float: right;
+}
+
+/* ------------------------------------------------------------------------------*/
+/* Icons */
+.ic {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ic-menu{
+    background-image: url("../imgs/menu.svg");
+}
